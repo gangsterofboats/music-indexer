@@ -6,6 +6,7 @@ db = SQLite3::Database.new 'music.db'
 
 db.execute <<SQL
   CREATE TABLE music (
+    id INTEGER PRIMARY KEY,
     artist TEXT,
     title TEXT,
     album TEXT,
