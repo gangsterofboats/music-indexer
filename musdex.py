@@ -9,6 +9,7 @@ c = db.cursor()
 
 c.execute('''
 CREATE TABLE music (
+    id INTEGER PRIMARY KEY,
     artist TEXT,
     title TEXT,
     album TEXT,
